@@ -1,12 +1,12 @@
 ---
 layout: post
 title: "한의학고전DB 서비스 예정 서적"
-categories: document mediclassics
+categories: mediclassics guide
 ---
 
 [한의학고전DB](http://mediclassics.kr/) 서비스 예정 서적을 소개합니다. 
 
-여건에 따라 변할 수 있습니다.
+연구 상황에 따라 다소 변경될 수 있습니다.
 
 2016년(예정)
 ------------

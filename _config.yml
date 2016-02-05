@@ -18,7 +18,7 @@ github: [Repository metadata] # https://help.github.com/articles/using-jekyll-wi
 github_username:  kmongoing
 
 # Build settings
-permalink: /:title
+permalink: /:categories/:title
 host: 0.0.0.0
 port: 8384
 timezone: Asia/Seoul

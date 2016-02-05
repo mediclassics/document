@@ -1,6 +1,12 @@
+<div class="col span_2 center">
+  <!-- TODO: add baseurl to the logo link -->
+  <a href="{{ site.baseurl }}/" id="logo" title="{{ site.data.brume.name }}"
+     style="background-image: url({{site.baseurl}}/public/images/logo.png);"></a>
+</div>
+        
 <nav class="col span_10 top-navbar">
   {% for link in site.data.links %}
-  <a href="{{ link.url }}" title="{{ link.title }}"
+  <a href="{{ site.baseurl }}{{ link.url }}" title="{{ link.title }}"
      {% if page.title == link.title %}class="current-page"{% endif %}>{{ link.title }}</a>
   {% endfor %}
 </nav>

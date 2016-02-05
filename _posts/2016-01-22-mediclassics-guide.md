@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "한의학고전DB 이용 가이드"
-categories: document mediclassics
+categories: mediclassics guide
 ---
 
 [한의학고전DB](http://mediclassics.kr/), 이렇게 이용하시면 편리합니다.
@@ -14,8 +14,8 @@ categories: document mediclassics
 
 기호
 
-- 별표(\*) : 교감기 중 번역자가 가장 적합하다고 판단하는 글자. 빠져야할 글자는 '\*없음'으로 표시함
-- 당구장표(※) : 역자주, 교감기의 근거
+- 별표(\*) : 번역에 반영된 교감 결과를 표시합니다. 빠져야할 글자는 '\*없음'으로 표시합니다.
+- 당구장표(※) : 역자주  혹은 교감기의 근거를 나타냅니다.
 - 파자
 - 신출자
 
