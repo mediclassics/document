@@ -12,7 +12,7 @@ categories: mediclassics guide
 
 ### 1. 열람
 
-#####1.1. 서적 네비게이션(목차)
+##### 1.1. 서적 네비게이션(목차)
 
 
 [![](http://i.imgur.com/IW4cNXrm.png)](http://i.imgur.com/IW4cNXr.png)
@@ -21,7 +21,7 @@ categories: mediclassics guide
 - 서적 네비게이션은 현재 문단이 속한 목차를 의미합니다.
 - 서적 네비게이션을 클릭하면 해당 부분으로 이동합니다.
 
-#####1.2. 설정 버튼 (언어 / 주석 / 글자크기)
+##### 1.2. 설정 버튼 (언어 / 주석 / 글자크기)
 
 [![](http://i.imgur.com/ZpPfLaAm.png)](http://i.imgur.com/ZpPfLaA.png)
 
@@ -29,14 +29,14 @@ categories: mediclassics guide
 - 로그인 후에 언어를 설정하면 다음 로그인할 때에도 설정이 유지됩니다.
 - 주석은 역자주![](https://mediclassics.kr/img/common/book_exp01.png)와 교감기![](https://mediclassics.kr/img/common/book_exp02.png)로 나뉩니다. 역자주![](https://mediclassics.kr/img/common/book_exp01.png)는 번역자가 작성한 주석이며, 교감기![](https://mediclassics.kr/img/common/book_exp02.png)는 다른 판본과 대조하여 원문(한자)을 교감한 주석입니다.
 
-#####1.3. 기호
+##### 1.3. 기호
 
 - 별표`*` : 번역에 반영된 교감 결과를 표시합니다. 빠져야할 글자는 `*없음`으로 표시합니다.
 - 당구장표`※` : 역자주  혹은 교감기의 근거를 나타냅니다.
 - 파자 : 쉴휴(休)는 `【人+木】`의 형태로 표기합니다.
 - 신출자, 마멸자 : `◍`로 표기합니다.
 
-#####1.4. 스타일
+##### 1.4. 스타일
 
 - 양각 : 글자를 둘러싼 타원으로 표시합니다.
 
@@ -53,13 +53,13 @@ categories: mediclassics guide
 
 ### 2. 검색
 
-#####2.1. 일반검색
+##### 2.1. 일반검색
 
 - 한 단어를 검색하면 각 서적별로 제목/본문으로 나누어 검색 결과를 출력합니다.
 - 2개 이상의 단어를 검색하면 해당 단어가 모두 포함된 검색 결과를 출력합니다.(AND 검색)
 - 서적분류, 출간년도, 제목/본문, 언어로 검색결과를 필터링할 수 있습니다.
 
-#####2.2. 상세검색(Advanced)
+##### 2.2. 상세검색(Advanced)
 
 - 서지사항(서명, 출간년 등)과 내용(제목/본문)과 역자주 필드에서 검색할 수 있습니다.
 - 'add' 버튼과 연산자(AND/OR/NOT)를 사용하면 기존에 사용했던 검색어를 조합할 수 있습니다.
@@ -79,7 +79,7 @@ categories: mediclassics guide
 알아두기
 --------
 
-###옛한글이나 몇몇 한자가 보이지 않으세요?
+### 옛한글이나 몇몇 한자가 보이지 않으세요?
 
 - 옛한글 지원 폰트 : [함초롬돋음체](http://www.hancom.com/downLoad.downPU.do?mcd=007)
 
