@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "한의학고전DB 이용 가이드"
-categories: mediclassics guide
+categories: guide
 ---
 
 [한의학고전DB](http://mediclassics.kr/), 이렇게 이용하시면 편리합니다.
