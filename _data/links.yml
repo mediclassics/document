@@ -1,5 +1,13 @@
 - url: /
   title: Home
 
+- url: https://mediclassics.kr/
+  title: Mediclassics
+  direction: out
+
+- url: https://www.gitbook.com/@kmongoing
+  title: eBooks
+  direction: out
+
 - url: /search
   title: Search

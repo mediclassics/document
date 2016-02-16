@@ -6,7 +6,14 @@
         
 <nav class="col span_10 top-navbar">
   {% for link in site.data.links %}
-  <a href="{{ site.baseurl }}{{ link.url }}" title="{{ link.title }}"
-     {% if page.title == link.title %}class="current-page"{% endif %}>{{ link.title }}</a>
+  <a title="{{ link.title }}"
+    {% if link.direction== 'out' %} 
+        href="{{ link.url }}" target="_blank" 
+    {% else %}
+        href="{{ site.baseurl }}{{ link.url }}"
+    {% endif %}
+    {% if page.title == link.title %} class="current-page" {% endif %}>
+        {{ link.title }}
+    </a>
   {% endfor %}
 </nav>
