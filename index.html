@@ -4,36 +4,28 @@ title: Home
 ---
 
 <section class="archive">
-{% for post in site.posts %}
-{% unless post.next %}
 
-{% unless forloop.first %}</div></div>{% endunless %}
+{% for category in site.categories %}
 
-  <div class="bundle row gutters fadeInDown animated">
-    <h2 class="post-year col span_3">{{ post.categories[0] | date: '%Y' }}</h2>
-    <div class="posts-by-year col span_9">
+    <div class="bundle row gutters fadeInDown animated">
+      <h2 class="post-year col span_3">{{ category | first | capitalize }}</h2>
+      <div class="posts-by-year col span_9">
 
-{% else %}
-{% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
-{% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
-{% if year != nyear %}
+    {% for posts in category %}
+      {% for post in posts %}
+          <article class="row gutters">
+            <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}" class="col span_8">{{ post.title }}</a>
+            <div class="post-date col span_4">
+              <time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: "%-d %B" }}</time>
+            </div>
+          </article>
+      {% endfor %}
+    {% endfor %}
 
-{% unless forloop.first %}</div></div>{% endunless %}
-
-  <div class="bundle row gutters fadeInDown animated">
-    <h2 class="post-year col span_3">{{ post.categories[0] | date: '%Y' }}</h2>
-    <div class="posts-by-year col span_9">
-{% endif %}
-{% endunless %}
-
-  <article class="row gutters">
-    <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}" class="col span_8">{{ post.title }}</a>
-    <div class="post-date col span_4">
-      <time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: "%-d %B" }}</time>
-    </div>
-  </article>
-
-{% if forloop.last %}</div></div>{% endif %}
-
+</div></div>
 {% endfor %}
+
+
 </section>
+
+<!--ref : http://stackoverflow.com/questions/20872861/jekyll-display-posts-by-category-->
