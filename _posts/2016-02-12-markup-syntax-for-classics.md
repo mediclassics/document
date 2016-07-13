@@ -58,14 +58,14 @@ categories: document
 
 만약 `CP`와 같이 된다면 2번째 큰 하위 제목으로 처방명을 의미한다. 
 
-기호|의미|html
+기호|의미| html example
 ---|---|---
-<kbd>AA</kbd>	 |	표제(주로 편명) | `<h1> ... </p>`
-<kbd>BB</kbd>	 |	표제(하위 제목들) | `<h2> ... </p>`
-<kbd>CC</kbd>	 |	표제(하위 제목들) | `<h3> ... </p>`
-<kbd>DD</kbd>	 |	표제(하위 제목들) | `<h4> ... </p>`
-<kbd>EE</kbd>	 |	표제(하위 제목들) | `<h5> ... </p>`
-<kbd>FF</kbd>	 |	표제(하위 제목들) | `<h6> ... </p>`
+<kbd>AA</kbd>	 |	표제(주로 편명) | `<h1> ... </h1>`
+<kbd>BB</kbd>	 |	표제(하위 제목들) | `<h2> ... </h2>`
+<kbd>CC</kbd>	 |	표제(하위 제목들) | `<h3> ... </h3>`
+<kbd>DD</kbd>	 |	표제(하위 제목들) | `<h4> ... </h4>`
+<kbd>EE</kbd>	 |	표제(하위 제목들) | `<h5> ... </h5>`
+<kbd>FF</kbd>	 |	표제(하위 제목들) | `<h6> ... </h6>`
 
 기호|의미
 ---|---
@@ -77,7 +77,7 @@ categories: document
 
 `ZZ`와 `SS`는 일반적으로 본문을 나타내며, 두번째 자리는 들여쓰기 정도를 의미한다. 
 
-기호|의미|html
+기호|의미| html example
 ---|---|---
 <kbd>ZZ</kbd>	 |	본문 | `<p class="zz"> ... </p>`
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<kbd>Z0</kbd>	|	본문(위로 1칸 내어쓰기)    | `<p class="zz up"> ... </p>`
@@ -95,7 +95,7 @@ categories: document
 
 기타 도상과 표는 다음과 같이 나타낸다. 
 
-기호|의미|html
+기호|의미| html example
 ---|---|---
 <kbd>PP</kbd> <small>(picture)</small>	|	도상(그림) |  `<img>`
 <kbd>TT</kbd> <small>(table)</small>	|	표  | `<table> ... </table>`
