@@ -29,7 +29,19 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-h1, h2, h3, h4, h5, h6, p, ul, ol, dl,
+h1, h2 {
+  margin-bottom: 40px;
+}
+
+h3, h4 {
+  margin-bottom: 30px;
+}
+
+h5, h6 {
+  margin-bottom: 20px;
+}
+
+p, ul, ol, dl,
 blockquote,
 table,
 img,
@@ -62,7 +74,10 @@ a {
 hr {
   border : 0;
   height: 25px;
-  background : url({{ site.baseurl }}/public/images/eagle.png) center center no-repeat;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  // background : url({{ site.baseurl }}/public/images/hr/eagle.png) center center no-repeat;
+  background : url({{ site.baseurl }}/public/images/hr/butterfly2.png) center center no-repeat;
 }
 
 code {
