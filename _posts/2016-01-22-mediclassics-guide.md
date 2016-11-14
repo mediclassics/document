@@ -70,9 +70,9 @@ categories: guide
 - 용어확장과 이체자 옵션은 동시에 사용할 수 있습니다. `감초/t/v[내용/본문-원문]`
 
 
-### 3. Open API
+<!--### 3. Open API
 
-회원가입 후 홈페이지 하단의 'OPEN API'를 통해 신청해주세요.
+회원가입 후 홈페이지 하단의 'OPEN API'를 통해 신청해주세요.-->
 
 * * *
 
@@ -105,7 +105,7 @@ categories: guide
 
  - 수정된 내역은 오류신고 아래에 표시됩니다.
 
- - [가이드](http://kmongoing.github.io/document/)페이지에서는 그동안 수정한 내역을 모두 보실 수 있습니다.
+ - [Issue](http://kmongoing.github.io/document/) 페이지에서는 그동안 수정한 내역을 모두 보실 수 있습니다.
 
 * * *
 
