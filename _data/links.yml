@@ -1,13 +1,18 @@
 - url: /
-  title: Home
+  title: 이용가이드
 
 - url: https://mediclassics.kr/
-  title: Mediclassics
+  title: 한의학고전DB
   direction: out
 
-- url: https://www.gitbook.com/@kmongoing
-  title: eBooks
+- url: https://mediclassics.github.io/#/db/list
+  title: 서적목록
   direction: out
 
-- url: /search
-  title: Search
+- url: https://mediclassics.github.io/#/db/apps
+  title: 부가서비스
+  direction: out
+
+- url: https://mediclassics.github.io/
+  title: 더보기
+  direction: out
