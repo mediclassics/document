@@ -1,15 +1,12 @@
-- url: /
-  title: 이용가이드
-
 - url: https://mediclassics.kr/
   title: 한의학고전DB
   direction: out
 
-- url: https://mediclassics.github.io/#/db/list
+- url: http://info.mediclassics.kr/contents/database/list
   title: 서적목록
   direction: out
 
-- url: https://mediclassics.github.io/#/db/apps
+- url: http://info.mediclassics.kr/contents/database/apps
   title: 부가서비스
   direction: out
 

@@ -1,14 +1,13 @@
 <div class="col span_2 center">
-  <!-- TODO: add baseurl to the logo link -->
   <a href="{{ site.baseurl }}/" id="logo" title="{{ site.data.brume.name }}"
      style="background-image: url({{site.baseurl}}/public/images/logo.png);"></a>
 </div>
-        
-<nav class="col span_10 top-navbar">
+
+<nav class="col span_10 top-navbar center">
   {% for link in site.data.links %}
   <a title="{{ link.title }}"
-    {% if link.direction== 'out' %} 
-        href="{{ link.url }}" target="_blank" 
+    {% if link.direction== 'out' %}
+        href="{{ link.url }}" target="_blank"
     {% else %}
         href="{{ site.baseurl }}{{ link.url }}"
     {% endif %}

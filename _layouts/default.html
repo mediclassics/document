@@ -5,32 +5,17 @@
   </head>
   <body>
     <div class="container azul">
+
       <header class="top row gutters{% if page.title == "Home" %} fadeInLeft animated{% endif %}">
-        {% include navigation.html %}
-      </header>
+
+	  {% include navigation.html %}
+
+	  </header>
 
       {{ content }}
 
-      <footer>
+      {% include footer.html %}
 
-      <!--Social Sharing-->
-      <!--https://superdevresources.com/share-buttons-jekyll/-->
-        <a href="https://twitter.com/share?text={{ page.title }}&url={{ site.url }}{{ site.baseurl }}{{ page.url }}" target="_blank">
-            <img alt="..." class="footer-icon" src="{{ site.baseurl }}/public/images/socialSharing/twitter.png">
-        </a>
-        <a href="http://www.facebook.com/sharer.php?u={{ site.url }}{{ site.baseurl }}{{ page.url }}&p[title]={{ page.title }}" target="_blank">
-            <img alt="..." class="footer-icon" src="{{ site.baseurl }}/public/images/socialSharing/facebook.png">
-        </a>
-        <a href="https://plus.google.com/share?url={{ site.url }}{{ site.baseurl }}{{ page.url }}" target="_blank">
-            <img alt="..." class="footer-icon" src="{{ site.baseurl }}/public/images/socialSharing/google.png">
-        </a>
-        <a href="http://www.linkedin.com/shareArticle?mini=true&url={{ site.url }}{{ site.baseurl }}{{ page.url }}&title={{ page.title }}">
-            <img alt="..." class="footer-icon" src="{{ site.baseurl }}/public/images/socialSharing/linkedin.png">
-        </a>
-        <p>
-          This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/deed.en_US">Creative Commons Attribution-NonCommercial 4.0 International License</a>.
-        </p>
-      </footer>
     </div>
 
     <!-- scripts -->

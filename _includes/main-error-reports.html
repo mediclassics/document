@@ -1,0 +1,40 @@
+<div class="bundle row gutters fadeInDown animated">
+  <h2 class="post-year col span_3">Issue</h2>
+  <div class="posts-by-year col span_9">
+
+	{% for year-reports in site.data.error-reports %}
+	<article class="row gutters">
+
+		<div class="col span_10">
+		<a href="{{ year-reports.link }}" title="{{ year-reports.year }}년도 오류신고 처리결과"  target="_blank">
+			<i class="fa fa-pencil fa-fw" aria-hidden="true"></i>
+			{{ year-reports.year }}년 오류신고 처리결과 &nbsp&nbsp&nbsp
+		</a>
+
+		{% for report in year-reports.times %}
+		{% if report.show %}
+		<a href="{{ report.list }}" title="{{ report.order }}분기" target="_blank"> / {{ report.order }}분기 </a>
+		{% endif %}
+		{% endfor %}
+		</div>
+
+		<div class="post-date col span_2">
+			<time datetime="-">-</time>
+		</div>
+	</article>
+	{% endfor %}
+
+	{% assign issues = site.posts | where:"categories","issue" %}
+	{% for post in issues %}
+	<article class="row gutters">
+		<div class="col span_10">
+			<a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+		</div>
+		<div class="post-date col span_2">
+			<time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: '%Y-%m-%d' }}</time>
+		</div>
+	</article>
+	{% endfor %}
+
+</div>
+</div>

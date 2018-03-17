@@ -1,0 +1,28 @@
+{% for category in site.categories %}
+
+{% assign cg = category | first %}
+
+{% unless cg == "issue" %}
+
+    <div class="bundle row gutters fadeInDown animated">
+    	<h2 class="post-year col span_3">{{ category | first | capitalize }}</h2>
+    	<div class="posts-by-year col span_9">
+
+    {% for posts in category %}
+      {% for post in posts %}
+    		<article class="row gutters">
+				<div class="col span_10">
+            		<a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+				</div>
+            	<div class="post-date col span_2">
+              		<time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: '%Y-%m-%d' }}</time>
+            	</div>
+        	</article>
+      {% endfor %}
+    {% endfor %}
+
+		</div>
+	</div>
+
+{% endunless%}
+{% endfor %}

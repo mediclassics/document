@@ -1,31 +1,16 @@
 ---
 layout: default
-title: Home
+title: Guide Page
 ---
 
 <section class="archive">
 
-{% for category in site.categories %}
+{% include main-categories.html %}
 
-    <div class="bundle row gutters fadeInDown animated">
-      <h2 class="post-year col span_3">{{ category | first | capitalize }}</h2>
-      <div class="posts-by-year col span_9">
-
-    {% for posts in category %}
-      {% for post in posts %}
-          <article class="row gutters">
-            <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}" class="col span_8">{{ post.title }}</a>
-            <div class="post-date col span_4">
-              <time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: "%-d %B" }}</time>
-            </div>
-          </article>
-      {% endfor %}
-    {% endfor %}
-
-</div></div>
-{% endfor %}
+{% include main-error-reports.html %}
 
 
 </section>
+
 
 <!--ref : http://stackoverflow.com/questions/20872861/jekyll-display-posts-by-category-->
