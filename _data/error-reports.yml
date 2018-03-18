@@ -1,35 +1,35 @@
 - year: 2016
-  link:
+  link: https://docs.google.com/spreadsheets/d/1oG_6dQkrHJgaVaiXzIjt3xmF_RVom7eryEXTJUlSTV8
   times:
-    - order: 2
+    - order: 1
       show: no
       list:
     - order: 2
       show: yes
-      list:
+      list: https://docs.google.com/spreadsheets/d/1oG_6dQkrHJgaVaiXzIjt3xmF_RVom7eryEXTJUlSTV8/edit#gid=0
     - order: 3
       show: yes
-      list:
+      list: https://docs.google.com/spreadsheets/d/1oG_6dQkrHJgaVaiXzIjt3xmF_RVom7eryEXTJUlSTV8/edit#gid=1635658883
     - order: 4
       show: yes
-      list:
+      list: https://docs.google.com/spreadsheets/d/1oG_6dQkrHJgaVaiXzIjt3xmF_RVom7eryEXTJUlSTV8/edit#gid=744259029
 
 
 - year: 2017
-  link:
+  link: https://docs.google.com/spreadsheets/d/1EBy6tEygPRG4jsC3XmaIAdIJ1BYmaXLojgfMOy6KYnM/edit#gid=0
   times:
     - order: 1
       show: yes
-      list:
+      list: https://docs.google.com/spreadsheets/d/1EBy6tEygPRG4jsC3XmaIAdIJ1BYmaXLojgfMOy6KYnM/edit#gid=0
     - order: 2
       show: yes
-      list:
+      list: https://docs.google.com/spreadsheets/d/1EBy6tEygPRG4jsC3XmaIAdIJ1BYmaXLojgfMOy6KYnM/edit#gid=445552849
     - order: 3
       show: yes
-      list:
+      list: https://docs.google.com/spreadsheets/d/1EBy6tEygPRG4jsC3XmaIAdIJ1BYmaXLojgfMOy6KYnM/edit#gid=1701070214
     - order: 4
       show: yes
-      list:
+      list: https://docs.google.com/spreadsheets/d/1EBy6tEygPRG4jsC3XmaIAdIJ1BYmaXLojgfMOy6KYnM/edit#gid=527003920
 
 - year: 2018
   link:
