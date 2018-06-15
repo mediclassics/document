@@ -38,8 +38,8 @@
       show: yes
       list: https://docs.google.com/spreadsheets/d/1rAXTQcO392rtdO40J8JoehNJ7nVp-WW2iJQYcVgax44/edit#gid=235211903
     - order: 2
-      show: no
-      list:
+      show: yes
+      list: https://docs.google.com/spreadsheets/d/1rAXTQcO392rtdO40J8JoehNJ7nVp-WW2iJQYcVgax44/edit#gid=1265878830
     - order: 3
       show: no
       list:
