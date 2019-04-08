@@ -46,3 +46,19 @@
     - order: 4
       show: yes
       list: https://docs.google.com/spreadsheets/d/1rAXTQcO392rtdO40J8JoehNJ7nVp-WW2iJQYcVgax44/edit#gid=1101058336
+
+- year: 2019
+  link: https://docs.google.com/spreadsheets/d/15atSS8fjeHKdcW5OwqchMuMv0LX2RCAnfY6R_FGzyzU/edit#gid=0
+  times:
+    - order: 1
+      show: yes
+      list: https://docs.google.com/spreadsheets/d/15atSS8fjeHKdcW5OwqchMuMv0LX2RCAnfY6R_FGzyzU/edit#gid=235211903
+    - order: 2
+      show: no
+      list:
+    - order: 3
+      show: no
+      list:
+    - order: 4
+      show: no
+      list:
