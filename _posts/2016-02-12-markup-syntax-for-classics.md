@@ -19,7 +19,7 @@ categories: document
 
 형태	|	기호   | html example
 ----|---|---
-작은글자 <small>(small)</small> | <kbd>[當歸]</kbd> | `<span class="size-sm">當歸</span>`
+작은글자 <small>(small)</small> | <kbd>[sm/當歸]</kbd> | `<span class="size-sm">當歸</span>`
 큰글자 <small>(large)</small> | <kbd>[lg/當歸]</kbd> | `<span class="size-lg">當歸</span>`
 양각 <small>(positive / relief)</small>	|	<kbd>[ps/當歸]</kbd> | `<span class="print-ps">當歸</span>`
 음각 <small>(negative / intaglio)</small>	|	<kbd>[ng/當歸]</kbd> | `<span class="print-ng">當歸</span>`
