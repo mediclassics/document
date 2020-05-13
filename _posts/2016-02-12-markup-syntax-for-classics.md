@@ -38,7 +38,7 @@ categories: document
 유형	| 설명 |	기호 
 ----|----|---|---
 교감기 | 원문 글자 교감 | <kbd>{A=B@출전}</kbd>, 여러개일 경우 <kbd>{A=B@출전1;C@출전2...}</kbd> 
-역자주 | 원문 설명 | <kbd>{○○:독음!설명@출전}</kbd>
+역자주 | 원문 설명 | <kbd>{○○:설명@출전}</kbd>
 역자주 | 번역문 설명 | <kbd>{○○:설명@출전}</kbd>, 여러개일 경우 <kbd>{○○:설명@출전;설명@출전}</kbd>
 기타 | 줄바꿈  | <kbd>{n}</kbd>
 
@@ -69,9 +69,9 @@ categories: document
 
 기호|의미
 ---|---
-<kbd>xP</kbd> 	|	처방 표제  
-<kbd>xK</kbd> 	|	침구 표제  
-<kbd>xH</kbd> 	|	본초 표제  
+<kbd>xP</kbd> 	|	처방 표제  <kbd>CP</kbd>, <kbd>DP</kbd>...
+<kbd>xK</kbd> 	|	침구 표제  <kbd>CK</kbd>, <kbd>DK</kbd>...
+<kbd>xH</kbd> 	|	본초 표제  <kbd>CH</kbd>, <kbd>DH</kbd>...
 
 ### 본문 
 
