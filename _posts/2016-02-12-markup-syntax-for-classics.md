@@ -84,12 +84,12 @@ categories: document
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<kbd>Z1</kbd>	|	본문(아래로 1칸 들여쓰기)    | `<p class="zz dn1"> ... </p>`
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<kbd>Z2</kbd>	|	본문(아래로 2칸 들여쓰기)    | `<p class="zz dn2"> ... </p>`
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<kbd>Z3</kbd>	|	본문(아래로 3칸 들여쓰기)    | `<p class="zz dn3"> ... </p>`
-<kbd>SS</kbd> 	|	중간에 삽입된 본문(특히 방제)    | `<p class="ss"> ... </p>`
+<kbd>SS</kbd> 	|	방제(처방)의 본문    | `<p class="ss"> ... </p>`
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<kbd>S0</kbd>	|	본문(위로 1칸 내어쓰기)    | `<p class="ss up"> ... </p>`
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<kbd>S1</kbd>	|	본문(아래로 1칸 들여쓰기)    | `<p class="ss dn1"> ... </p>`
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<kbd>S2</kbd>	|	본문(아래로 2칸 들여쓰기)    | `<p class="ss dn2"> ... </p>`
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<kbd>S3</kbd>	|	본문(아래로 3칸 들여쓰기)    | `<p class="ss dn2"> ... </p>`
-<kbd>XX</kbd> 	|	표제어에 딸린 설명  |   `<span class="xx"> ... </span>`
+<kbd>XX</kbd> 	|	표제어 또는 장절 전체에 대한 설명  |   `<span class="xx"> ... </span>`
 
 ### 기타
 
