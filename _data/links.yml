@@ -6,10 +6,6 @@
   title: 서적목록
   direction: out
 
-- url: http://info.mediclassics.kr/contents/database/apps
-  title: 부가서비스
-  direction: out
-
-- url: http://info.mediclassics.kr
-  title: 더보기
+- url: http://info.mediclassics.kr/
+  title: 한의학 고문헌 연구 쇼케이스
   direction: out
