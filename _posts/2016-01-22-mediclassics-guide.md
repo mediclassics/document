@@ -74,10 +74,3 @@ categories: guide
 
 회원가입 후 홈페이지 하단의 'OPEN API'를 통해 신청해주세요.-->
 
-* * *
-
-
-서비스 예정 서적
-----------------
-
-[여기]({{ site.baseurl }}{% post_url 2016-01-22-mediclassics-plan %}) 서적들이 만들어지고 있습니다.
