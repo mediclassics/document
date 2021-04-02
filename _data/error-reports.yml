@@ -80,10 +80,10 @@
       list: https://docs.google.com/spreadsheets/d/1VQr6Wt4NI6K4CRvlolAFqVavVVq0M_0nOjSrRV9iIrQ/edit#gid=1101058336
 
 - year: 2021
-  link: https://docs.google.com/spreadsheets/d/1d5fy9qK5e1XOhZps_hvHS1ughBwTDrdh2p8qaMLiRKA
+  link: https://docs.google.com/spreadsheets/d/1d5fy9qK5e1XOhZps_hvHS1ughBwTDrdh2p8qaMLiRKA/edit?usp=sharing
   times:
     - order: 1
-      show: no
+      show: yes
       list: https://docs.google.com/spreadsheets/d/1d5fy9qK5e1XOhZps_hvHS1ughBwTDrdh2p8qaMLiRKA/edit#gid=235211903
     - order: 2
       show: no
